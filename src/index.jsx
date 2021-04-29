@@ -32,13 +32,14 @@ let App = ({states, actions}) => {
       <hr />
       <div>
         <h3>Counter : {state.counter} </h3>
+        <button onclick = {actions.inc}>INC</button>
       </div>
     </Fragment>
   );
 };
 
-render(<App states={states} action={actions} />, document.body);
+render(<App states = {states} actions = {actions} />, document.body);
 
-// Debug
+
 
 
