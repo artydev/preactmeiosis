@@ -1,0 +1,28 @@
+{
+  "name": "preactmeiosis",
+  "version": "1.0.0",
+  "description": "\"# preactmeiosis\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artydev/preactmeiosis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artydev/preactmeiosis/issues"
+  },
+  "homepage": "https://github.com/artydev/preactmeiosis#readme",
+  "dependencies": {
+    "bss": "^1.6.4",
+    "flyd": "^0.2.8",
+    "mergerino": "^0.4.0",
+    "preact": "^10.5.13",
+    "snowpack": "^3.3.5"
+  }
+}
